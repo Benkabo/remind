@@ -1,0 +1,14 @@
+{
+  "name": "remind",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect -e js,html,css,sql,scss,hbs app.js"
+  },
+  "author": "Benedict Kaboyoka",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
